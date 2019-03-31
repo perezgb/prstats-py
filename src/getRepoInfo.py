@@ -2,7 +2,7 @@ from github import Github
 import os
 
 #using a token for connection
-token = os.getenv('MY_TOKEN')
+token = os.getenv('GITHUB_TOKEN')
 
 gitAccess = Github(token)
 
